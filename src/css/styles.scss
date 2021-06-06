@@ -119,6 +119,7 @@ form {
     justify-content: center;
     margin: 0;
     .material-icons {
+      text-align: center;
       display: flex;
       justify-content: center;
     }
@@ -132,4 +133,10 @@ form {
   padding: 20px;
   text-align: center;
   border: 1px solid chocolate;
+}
+.start {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

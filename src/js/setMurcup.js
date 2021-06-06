@@ -4,7 +4,6 @@ export default async function makeMurcup(response, gallery, callback) {
       'beforeend',
       '<p class="allert">Внимание!</br>По ваему запросу ничего не найдено, уточните поиск.</p>',
     );
-
     return;
   } else {
     gallery.insertAdjacentHTML('beforeend', callback);

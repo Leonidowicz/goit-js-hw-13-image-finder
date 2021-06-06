@@ -26,10 +26,12 @@ function submitHandler(event) {
         ? ref.more.classList.remove('is-hidden')
         : ref.more.classList.add('is-hidden');
       ref.gallery.innerHTML = '';
-
+      ref.form.classList.remove('start');
       setMurcup(response.hits, ref.gallery, getMarkup(response));
     })
-    .catch(error => onFetchError(error, ref.gallery))
+    .catch(error => {
+      onFetchError(error, ref.gallery);
+    })
     .finally((event.target.elements.input.value = ''));
 }
 
