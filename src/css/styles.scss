@@ -89,6 +89,10 @@ form {
   display: none;
 }
 
+[data-action='load-more'] {
+  margin-bottom: 20px;
+}
+
 .gallery {
   width: 1000px;
   padding: 0;
@@ -99,6 +103,7 @@ form {
   margin-right: auto;
   margin-top: 100px;
 }
+
 .photo-card {
   display: flex;
   flex-direction: column;

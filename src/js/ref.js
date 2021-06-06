@@ -3,4 +3,5 @@ export default {
   body: document.querySelector('body'),
   gallery: document.querySelector('.gallery'),
   more: document.querySelector('[data-action="load-more"]'),
+  spase: document.querySelector('.spase'),
 };

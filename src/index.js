@@ -50,7 +50,7 @@ function showMore() {
         behavior: 'smooth',
         block: 'end',
       });
-      ref.more.scrollIntoView({
+      ref.spase.scrollIntoView({
         behavior: 'smooth',
         block: 'end',
       });
