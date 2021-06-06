@@ -27,6 +27,7 @@ function submitHandler(event) {
         : ref.more.classList.add('is-hidden');
       ref.gallery.innerHTML = '';
       ref.form.classList.remove('start');
+      ref.form.classList.add('workProcess');
       setMurcup(response.hits, ref.gallery, getMarkup(response));
     })
     .catch(error => {

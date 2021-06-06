@@ -30,6 +30,14 @@ body {
 }
 
 form {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1000px;
+  background-color: #545658;
+
   input {
     height: 36px;
     margin-right: 10px;
@@ -38,11 +46,6 @@ form {
     border-style: none;
     padding: 5px;
   }
-  margin: 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
   p {
     text-align: left;
     display: inline-block;
@@ -94,6 +97,7 @@ form {
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 .photo-card {
   display: flex;
@@ -139,4 +143,8 @@ form {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.workProcess {
+  position: fixed;
+  top: 0;
 }
